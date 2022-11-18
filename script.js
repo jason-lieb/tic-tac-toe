@@ -1,7 +1,3 @@
-class Gameboard {
-  constructor() {
-    return [['', '', ''],
-            ['', '', ''],
-            ['', '', '']]
-  }
-}
+let gameboard = (function() {
+  return {board: ['', '', '', '', '', '', '', '', '']};
+})();
